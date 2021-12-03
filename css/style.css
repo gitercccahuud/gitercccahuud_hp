@@ -23,6 +23,10 @@ a:visited{
     color: #400080;
 }
 
+.header{
+    width: 100%;
+}
+
 .global-nav{
     font-size: 16px;
     margin-top:15px;
@@ -32,9 +36,225 @@ a:visited{
     display: inline-block;
     margin: 0 10px;
 }
-
 .title{
     text-align: center;
     font-size: 2.4rem;
     margin: 40px auto 40px;
 }
+ 
+@media screen and (max-width:700px){
+    .top{
+        font-size: 24px;
+        width: 100%;
+    }
+    
+    .history{
+        font-size: 24px;
+        width: 100%;
+    }
+    
+    .latest{
+        font-size: 24px;
+        width: 100%;
+    }
+    .linktotop{
+        width: 100%;
+        float:left;
+        display:flex;
+        flex-direction:column;
+    }
+   
+    .readmemain{
+        width: 100%;
+        float:left;
+        display:flex;
+        flex-direction:column;
+    }
+
+    .blogstop{
+        font-size: 24px;
+        width: 100%;
+        float:left;
+        display:flex;
+        flex-direction:column;
+    }
+
+    .bookstop{
+        font-size: 24px;
+        width: 100%;
+        float:left;
+        display:flex;
+        flex-direction:column;
+    }
+
+    .productstop{
+        font-size: 24px;
+        width: 100%;
+        float:left;
+        display:flex;
+        flex-direction:column;
+    }
+
+    #twitter-widget-0{
+        width:100% !important;
+        height: 500px !important;
+    }
+    /*
+    .tweetarea{
+        width:100%;
+    }
+    */
+    .documents{
+        width:100%;
+    }
+}
+   
+@media screen and (min-width:700px){
+    .top{
+        font-size: 24px;
+        width: 69%;
+        float:left;
+        display:flex;
+        flex-direction:column;
+
+    }
+    
+    .history{
+        font-size: 24px;
+        width: 69%;
+        float:left;
+        display:flex;
+        flex-direction:column;
+
+    }
+    
+    .latest{
+        font-size: 24px;
+        width: 69%;
+        float:left;
+        display:flex;
+        flex-direction:column;
+
+    }
+
+    .linktotop{
+        width: 69%;
+        float:left;
+    }
+
+    .readmemain{
+        font-size: 24px;
+        width: 69%;
+        float:left;
+        display:flex;
+        flex-direction:column;
+    }
+
+    .blogstop{
+        font-size: 24px;
+        width: 69%;
+        float:left;
+        display:flex;
+        flex-direction:column;
+    }
+
+    .bookstop{
+        font-size: 24px;
+        width: 69%;
+        float:left;
+        display:flex;
+        flex-direction:column;
+    }
+
+    .productstop{
+        font-size: 24px;
+        width: 69%;
+        float:left;
+        display:flex;
+        flex-direction:column;
+    }
+
+
+    #twitter-widget-0{
+        width:30% !important;
+        height: 600px !important;
+
+    }
+    /*
+    .tweetarea{
+        width:30%;
+        float:right;
+        display:flex;
+        flex-direction:column;
+    }
+    .twitter-timeline{
+        width:30%;
+        float:right;
+        display:flex;
+        flex-direction:column;
+    }
+*/
+    .documents{
+        width:30%;
+        float:right;
+        display:flex;
+        flex-direction:column;
+    }
+}
+    
+.clear{
+    clear:both;
+}
+
+.footer{
+    width: 100%;
+    padding: 20px 0 30px;
+}
+
+.footer::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.footer .icon{
+    text-align:center;
+    text-decoration: none;
+    margin: 0 auto;
+    border:0;
+}
+
+.footer .icon a {
+    text-decoration: none;
+}
+
+.icon .footer-item .twittericon{
+    width: 50px;
+    height: auto;
+}
+
+.icon .footer-item .qiitaicon{
+    width: 50px;
+    height: auto;
+}
+
+.icon .footer-item .giticon{
+    width: 50px;
+    height: auto;
+}
+
+.icon .footer-item .fbicon{
+    width: 50px;
+    height: auto;
+}
+
+.icon .myid{
+    margin: 1px auto 5px;
+    padding: 10px auto 30px;
+}
+/*
+.header, .title, .global-nav, .top, .history, .latest, .tweetarea, .documents, .footer{
+    border: 1px solid #aaa;
+    background-color: #ccc;
+}
+*/
